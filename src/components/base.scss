@@ -1,0 +1,6 @@
+@function rem($px){//$px为需要转换的字号
+  @return $px / 10 * 1rem; //100px为根字体大小
+}
+@function rem375($px){
+  @return $px / 37.5 * 1rem;
+}

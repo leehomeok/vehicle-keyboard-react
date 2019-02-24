@@ -1,0 +1,25 @@
+div#input-widget {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 20%;
+  text-align: center;
+  justify-content: center;
+  background: #ffffff;
+}
+/* 键盘框的高度，占比为 80% */
+div#divider {
+  height: 3%;
+}
+div#keyboard-pad{
+  height: 77%;
+}
+div#rid-m-201708101425 {
+  margin: 0 auto;
+  width: 100%;
+  height: 40%;
+  text-align: center;
+  font-family: "PingFangSC-Regular", "Helvetica Neue", Arial, sans-serif;
+}
